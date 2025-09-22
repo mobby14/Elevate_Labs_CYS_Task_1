@@ -14,8 +14,8 @@ This project demonstrates basic network reconnaissance techniques by scanning a 
 ## Methodology
 1. Installed Nmap from the official website
 2. Use Command Prompt/Terminal to find the local IP subnet (e.g., 172.XX.XX.0/24)
-   2.1. For Windows[CMD], Use <ipconfig>.
-   2.2. For Mac[Terminal], Use <ipconfig getsummary en0>[for wireless]/<en1>[for ethernet].
+   <br>2.1. For Windows[CMD], Use ipconfig.
+   <br>2.2. For Mac[Terminal], Use ipconfig getsummary en0[for wireless]/en1 [for ethernet].
 4. Performed TCP SYN scan using `nmap -sS 172.XX.XX.0/24`
 5. Documented IPs and open ports found during the scan
 6. Researched services running on common and unknown ports
