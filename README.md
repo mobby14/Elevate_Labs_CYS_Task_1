@@ -32,8 +32,8 @@ This project demonstrates basic network reconnaissance techniques by scanning a 
 
 ## Key Learnings
 ### Open Port
-- Open ports are the doors which allows the local pc to communicate in internet but as it says it is a door.
-- Therefore, We need to properly secure the door from the hackers ie. thieves.
+- Open ports are the doors which allows the local pc to communicate with internet.
+- But it is door without a lock.Therefore, We need to properly secure the door from the hackers ie. thieves.
 
 ### NMap Syntax
 - Nmap TCP SYN scans provide fast and stealthy detection of open ports.
