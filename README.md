@@ -25,8 +25,8 @@ This project demonstrates basic network reconnaissance techniques by scanning a 
 
 | IP Address | Open Ports              | Services and Descriptions                                                         |
 |------------|------------------------|-----------------------------------------------------------------------------------|
-| Unknown    | 21, 53, 49152, 62078   | **21 - FTP:** File Transfer Protocol for transferring files, but insecure by default. <br> **53 - Domain (DNS):** Resolves domain names to IP addresses, essential for internet communication. <br> **49152 - Unknown:** Dynamically assigned ephemeral port, service varies. <br> **62078 - iPhone-sync:** Used by Apple devices for syncing data with computers. |
-| Unknown    | 49152, 62078           | **49152 - Unknown:** As above, requires further investigation. <br> **62078 - iPhone-sync:** As above, related to Apple device syncing.                              |
+| Unknown    | 21, 53, 49152, 62078   | **21 - FTP:** File Transfer Protocol for transferring files, but insecure by default. <br> **53 - Domain (DNS):** Resolves domain names to IP addresses, essential for internet communication.  <br> **62078 - iPhone-sync:** Used by Apple devices for syncing data with computers. |
+| Unknown    | 49152, 62078           |  <br> **62078 - iPhone-sync:** As above, related to Apple device syncing.                              |
 | Unknown    | 135, 139, 445, 2968, 3580 | **135 - MSRPC:** Microsoft Remote Procedure Call, for system communications but can be vulnerable. <br> **139 - NetBIOS-SSN:** Supports Windows file/printer sharing; often targeted for attacks. <br> **445 - Microsoft-DS:** SMB protocol for file sharing; critical but widely exploited. <br> **2968 - ENPP:** Less common, possibly network proxy or proprietary service. <br> **3580 - NATI-SVRLOC:** Used for network address translation server location, depends on network setup. |
 
 
