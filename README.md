@@ -43,11 +43,4 @@ This project demonstrates basic network reconnaissance techniques by scanning a 
 - Regularly update and patch networked devices
 - Implement ongoing monitoring with tools like Wireshark
 
-## License
-This project is licensed under the MIT License.
-
----
-
-*For educational purposes as part of the Cybersecurity Internship.*
-
-
+*For educational purposes as part of the Cybersecurity Internship.
